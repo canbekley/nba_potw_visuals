@@ -11895,26 +11895,6 @@ a.anchor-link {
 </head>
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-<style type="text/css">
-//div.output_wrapper {
-//  margin-top: 0px;
-//}
-.input_hidden {
-  display: none;
-//  margin-top: 5px;
-}
-</style>
-
-<script>
-$(document).ready(function(){
-  $(".output_wrapper").click(function(){
-      $(this).prev('.input_hidden').slideToggle();
-  });
-})
-</script>
-
 <body>
 
 
@@ -11951,6 +11931,65 @@ By: Can Bekleyici - bekleydata.com<br></center>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># toggle option for slides</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span>
+
+<span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;&lt;script&gt;</span>
+<span class="s1">code_show=true; </span>
+<span class="s1">function code_toggle() {</span>
+<span class="s1"> if (code_show){</span>
+<span class="s1"> $(&#39;div.input&#39;).hide();</span>
+<span class="s1"> } else {</span>
+<span class="s1"> $(&#39;div.input&#39;).show();</span>
+<span class="s1"> }</span>
+<span class="s1"> code_show = !code_show</span>
+<span class="s1">} </span>
+<span class="s1">$( document ).ready(code_toggle);</span>
+<span class="s1">&lt;/script&gt;</span>
+<span class="s1">&lt;form action=&quot;javascript:code_toggle()&quot;&gt;&lt;input type=&quot;submit&quot; value=&quot;Click here to toggle on/off the raw code.&quot;&gt;&lt;/form&gt;&#39;&#39;&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[2]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<script>
+code_show=true; 
+function code_toggle() {
+ if (code_show){
+ $('div.input').hide();
+ } else {
+ $('div.input').show();
+ }
+ code_show = !code_show
+} 
+$( document ).ready(code_toggle);
+</script>
+<form action="javascript:code_toggle()"><input type="submit" value="Click here to toggle on/off the raw code."></form>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -11973,9 +12012,8 @@ By: Can Bekleyici - bekleydata.com<br></center>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input_hidden">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># plot the distributions</span>
@@ -11988,8 +12026,6 @@ By: Can Bekleyici - bekleydata.com<br></center>
 
 </div>
 </div>
-</div>
-
 </div>
 
 <div class="output_wrapper">
@@ -12026,9 +12062,8 @@ By: Can Bekleyici - bekleydata.com<br></center>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input_hidden">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Clean inconsistent Position values</span>
@@ -12050,8 +12085,6 @@ By: Can Bekleyici - bekleydata.com<br></center>
 
 </div>
 </div>
-</div>
-
 </div>
 
 <div class="output_wrapper">
@@ -12098,9 +12131,8 @@ By: Can Bekleyici - bekleydata.com<br></center>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input_hidden">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Clean inconsistent Position values</span>
@@ -12119,8 +12151,6 @@ By: Can Bekleyici - bekleydata.com<br></center>
 
 </div>
 </div>
-</div>
-
 </div>
 
 <div class="output_wrapper">
@@ -12167,9 +12197,8 @@ By: Can Bekleyici - bekleydata.com<br></center>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input_hidden">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># creates a 3 dimensional scatter plot</span>
@@ -12185,8 +12214,6 @@ By: Can Bekleyici - bekleydata.com<br></center>
 
 </div>
 </div>
-</div>
-
 </div>
 
 <div class="output_wrapper">
@@ -12223,9 +12250,8 @@ By: Can Bekleyici - bekleydata.com<br></center>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input_hidden">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">mean_poly</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">bins</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
@@ -12255,8 +12281,6 @@ By: Can Bekleyici - bekleydata.com<br></center>
 
 </div>
 </div>
-</div>
-
 </div>
 
 <div class="output_wrapper">
