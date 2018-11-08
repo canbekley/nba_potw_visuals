@@ -3,6 +3,8 @@ Created: 10/27/2018<br>
 Latest Update: 10/28/2018<br>
 By: Can Bekleyici - bekleydata.com<br>
 
+<img src="project5.jpg" height="400px" width="500px">
+
 ## Introduction
 For this project, I explored a <a href="https://www.kaggle.com/jacobbaruch/nba-player-of-the-week">dataset from kaggle</a>, which contains every Player of the Week awarded between the NBA seasons 1984/85 and 2017/18. After shortly assessing and cleaning the dataset, I started exploring the data by using a variety of visualisations and techniques (as feature engineering). Upon finishing the exploration, I polished the visualizations for presentation purposes and turned them into slide decks.
 
