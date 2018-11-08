@@ -9,6 +9,9 @@ For this project, I explored a <a href="https://www.kaggle.com/jacobbaruch/nba-p
 ## Key Findings
 The visual exploration of the dataset revealed, that players in the position of a guard have been chosen the most times as 'Player of the Week' in the NBA. The body mass index (bmi) of each awarded player have been the highest on average for Forward-Centers and the lowest on average for Shooting-Guards. Players that have been drafted more recently tend to have a higher bmi on average than players that have been drafted 10-50 years ago. Despite the overall trend of higher bmi's for high performing players, the average bmi's of Forwards (F), Centers (C), and Forward-Centers (FC) have actually decreased more recently.
 
+## Slide Deck:
+Please click on [this link](http://nbviewer.jupyter.org/format/slides/github/canbekley/nba_potw_visuals/blob/master/nba_data_explanatory.ipynb?flush_cache=true#/) to view the slide deck. 
+
 ## Prerequisite
 ### Files that are included (among others):
 <ul><li><code>nba_data_exploratory.ipynb</code> - The main code for this project as a jupyter notebook</li>
