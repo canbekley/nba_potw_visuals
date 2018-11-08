@@ -1,6 +1,6 @@
-# NBA Players of the Week - Exploratory and Explanatory Visualizations
-Created: 10/27/2018<br>
-Latest Update: 10/28/2018<br>
+# NBA Players of the Week - Visual Analysis
+Created: October 27, 2018<br>
+Latest Update: November 2, 2018<br>
 By: Can Bekleyici - bekleydata.com<br>
 
 <img src="project5.jpg" height="400px" width="500px">
